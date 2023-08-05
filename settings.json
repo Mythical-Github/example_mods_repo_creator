@@ -1,0 +1,33 @@
+{
+  "settings": {
+    "repo_name": "ThymesiaExampleMods",
+    "github_username": "Mythical-Github",
+    "access_token": "",
+    "repo_description": "",
+    "license_template": "gpl-3.0",
+	"homepage": "http://dothething.us",
+    "topics": [
+      "modding",
+      "unreal_engine",
+      "ue4ss"
+    ],
+    "submodules": [
+      {
+        "submodule_url": "https://github.com/Mythical-Github/Template_UE4SS_Lua_Mods",
+        "submodule_path": "Lua/Template_UE4SS_Lua_Mods"
+      },
+      {
+        "submodule_url": "https://github.com/Mythical-Github/TemplateUnrealModUprojects",
+        "submodule_path": "Blueprint/TemplateUnrealModUprojects"
+      },
+      {
+        "submodule_url": "https://github.com/Mythical-Github/Template_UE4SS_C++_Mods",
+        "submodule_path": "Lua/Template_UE4SS_C++_Mods"
+      },
+      {
+        "submodule_url": "https://github.com/UE4SS-RE/RE-UE4SS",
+        "submodule_path": "C++/MyDllMods/RE-UE4SS"
+      }
+    ]
+  }
+}
