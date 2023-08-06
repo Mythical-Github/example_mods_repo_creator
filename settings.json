@@ -22,7 +22,7 @@
       },
       {
         "submodule_url": "https://github.com/Mythical-Github/Template_UE4SS_C++_Mods",
-        "submodule_path": "Lua/Template_UE4SS_C++_Mods"
+        "submodule_path": "C++/Template_UE4SS_C++_Mods"
       },
       {
         "submodule_url": "https://github.com/UE4SS-RE/RE-UE4SS",
