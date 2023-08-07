@@ -21,15 +21,17 @@ settings = data['settings']
 
 repo_name = settings['repo_name']
 
+os.chdir(repo_name)
+
 game_project_name = settings['game_project_name']
 
-template_blueprint_project = f"{os.getcwd()}/{repo_name}/Blueprint/Template_UE4SS_Blueprint_Mods" 
-final_blueprint_project = f"{os.getcwd()}/{repo_name}/Blueprint/{game_project_name}"
+template_blueprint_project = f"{os.getcwd()}/Blueprint/Template_UE4SS_Blueprint_Mods" 
+final_blueprint_project = f"{os.getcwd()}/Blueprint/{game_project_name}"
 
 shutil.move(template_blueprint_project, final_blueprint_project)
 
-template_blueprint_uproject_file = f"{os.getcwd()}/{repo_name}/Blueprint/{game_project_name}/Template.uproject"
-final_blueprint_uproject_file = f"{os.getcwd()}/{repo_name}/Blueprint/{game_project_name}/{game_project_name}.uproject"
+template_blueprint_uproject_file = f"{os.getcwd()}/Blueprint/{game_project_name}/Template.uproject"
+final_blueprint_uproject_file = f"{os.getcwd()}/Blueprint/{game_project_name}/{game_project_name}.uproject"
 
 shutil.move(template_blueprint_uproject_file, final_blueprint_uproject_file)
 
