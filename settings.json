@@ -1,8 +1,9 @@
 {
   "settings": {
     "repo_name": "ThymesiaExampleMods",
+	"game_project_name": "PlagueProject",
     "github_username": "Mythical-Github",
-    "access_token": "",
+    "access_token": "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",
     "repo_description": "",
     "license_template": "gpl-3.0",
 	"homepage": "",
