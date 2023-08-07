@@ -34,12 +34,14 @@ final_blueprint_uproject_file = f"{os.getcwd()}/{repo_name}/Blueprint/{game_proj
 shutil.move(template_blueprint_uproject_file, final_blueprint_uproject_file)
 
 os.system(f"git add .")
-os.system(f'git commit -m "Added submodule"')
+os.system(f'git commit -m "organized files"')
 os.system(f"git push")
+
+time.sleep(10)
 
 subprocess.run(["python", delete_repo_files_on_disk])
 subprocess.run(["python", clone_repo_py])
-subprocess.run(["python", removesubmodules])
+subprocess.run(["python", remove_submodules])
 subprocess.run(["python", delete_repo_files_on_disk])
 subprocess.run(["python", clone_repo_py])
 
