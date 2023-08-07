@@ -5,7 +5,7 @@
     "access_token": "",
     "repo_description": "",
     "license_template": "gpl-3.0",
-	"homepage": "http://dothething.us",
+	"homepage": "",
     "topics": [
       "modding",
       "unreal_engine",
@@ -17,8 +17,8 @@
         "submodule_path": "Lua/Template_UE4SS_Lua_Mods"
       },
       {
-        "submodule_url": "https://github.com/Mythical-Github/TemplateUnrealModUprojects",
-        "submodule_path": "Blueprint/TemplateUnrealModUprojects"
+        "submodule_url": "https://github.com/Mythical-Github/Template_UE4SS_Blueprint_Mods",
+        "submodule_path": "Blueprint/Template_UE4SS_Blueprint_Mods"
       },
       {
         "submodule_url": "https://github.com/Mythical-Github/Template_UE4SS_C++_Mods",
